@@ -1,0 +1,40 @@
+----------------------- BASICAS ------------------------------
+
+Basica_Saudacao
+	Olá, tudo bem? Posso te ajudar com informações sobre investimentos e ações, o que você gostaria de saber?
+	
+Basica_Despedir
+	Tchau! Até mais, se precisar de mais alguma coisa estou a sua disposição! :)
+	
+Basica_Ajuda
+	É bem simples, sou um assistente digital e posso te ajudar com informações sobre ativos e investimentos. 
+	Me pergunte o que você gostaria de saber e vou fazer o meu melhor para responder!
+
+Basica_Agradecer
+	Foi um prazer poder ajudar! Se precisar de mais alguma coisa é só falar. ;)
+
+Acao_Definicao
+	Ações são pequenas partes de uma empresa. Ou seja, todos os que são donos de uma ação, são sócios de um pedaço da empresa.
+
+None
+	Me desculpe, não consegui entender o que você disse. Ainda estou em fase de aprendizado, mas tente falar de maneira mais clara eu talvez eu consida entender. :D
+
+---------------------- ESPECIFICAS -----------------------------
+	
+Acao_Definicao
+	Ações são pequenas partes de uma empresa. Ou seja, todos os que são donos de uma ação, são sócios de um pedaço da empresa.
+	
+Investir_ComoLucrar
+	Você pode ganhar de três formas. Com a alta das ações que comprar, quando a empresa distribui lucros para os acionistas (dividendos) e alugando suas ações.
+ 
+Investir_Internet
+	Várias corretoras oferecem o serviço de home broker, uma ferramenta que permite a compra e a venda de ações diretamente pela internet. É rápido, transparente e muito seguro. Com este serviço, você pode acompanhar o mercado e negociar suas ações de casa, no escritório e até durante uma viagem.
+ 
+Investir_MelhorMomento
+	O momento ideal é quando você estiver seguro de que entendeu a mecânica básica do mercado acionário, ou seja, é uma aplicação com horizonte de resgate de médio e longo prazos, tem bom potencial de rentabilidade e traz também riscos de flutuação no valor investido.
+ 
+Investir_TamanhoLucro
+	As ações são investimentos de renda variável, ou seja, não há uma rentabilidade média predeterminada. Antes de investir seu dinheiro, lembre-se que ação é um investimento de risco e para formação de patrimônio de longo prazo. A curto prazo, assim como pode valorizar, também pode desvalorizar.
+ 
+Investir_Vantagens
+	Não é preciso muito dinheiro para começar. Você recebe dividendos periodicamente, tem potencial de boa rentabilidade no longo prazo, pode comprar ou vender suas ações a qualquer momento e é possível alugar suas ações fazendo um empréstimo de ativos e ganhar um rendimento extra.

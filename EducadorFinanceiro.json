@@ -1,0 +1,829 @@
+{
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "EducadorFinanceiro",
+  "desc": "",
+  "culture": "pt-br",
+  "intents": [
+    {
+      "name": "Acao_Consultar"
+    },
+    {
+      "name": "Acao_Definicao"
+    },
+    {
+      "name": "Basica_Agradecer"
+    },
+    {
+      "name": "Basica_Ajuda"
+    },
+    {
+      "name": "Basica_Despedir"
+    },
+    {
+      "name": "Basica_Saudacao"
+    },
+    {
+      "name": "Investir_ComoLucrar"
+    },
+    {
+      "name": "Investir_Internet"
+    },
+    {
+      "name": "Investir_MelhorMomento"
+    },
+    {
+      "name": "Investir_TamanhoLucro"
+    },
+    {
+      "name": "Investir_Vantagens"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Ativo",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "AtivosExemplos",
+      "mode": true,
+      "words": "petrobrás,microsoft,yahoo,usiminas,google,vale,apple,banco do brasil,sony,bradesco,facebook,correios,samsung,twitter,unimed,petrobras,linkedin,motorola,instagram,ambev,azul,gol,latam,boeing,carrefour,avianca,lufthansa,natura,embraer,air france,johnson & johnson,odebrecht,avon,itaú,santander,tam,vivo,tim,gerdau,hsbc,caixa,banrisul,unibanco,citibank,safra,votorantim,itau,bndes,fiat,ford,volkswagen,renault,bb,toyota,honda,chevrolet,hyundai,peugeot,nissan,mitsubishi,bmw,audi,gm,petr4,petr3,usim5,fmof11,fnam11,fncn3,fnor11,fpab11,fras3,frio3,frrn3b,frrn5b,frrn6b,ftce11b,ftrt3b,fvbi11b,fvpq11,geoo34,gepa3,gepa4,gfsa3,ggbr3,ggbr4,gnan3b,goau3,goau4,goll4,gove11,gpar3,gpcp3,gpiv33,grlv11,grnd3,gruc3,gruc6,gsgi34,gshp3,guar3,guar4,gwir11,haga3,haga4,hali34,hbor3,hbts5,hcri11b,heta3,heta4,hgbs11,hgcr11,hgjh11,hglg11,hgre11,hgtx3,home34,honb34,hoot3,hoot4,hpqb34,htmx11b,hype3,ibmb34,idnt3,idvl3,idvl4,igbr3,igta3,imbi3,imbi4,inep3,inep4,isus11,itec3,itlc34,itsa3,itsa4,itub3,itub4,ivpr3b,ivpr4b,ivvb11,jbdu3,jbdu4,jbss3,jfen3,jhsf3,jnjb34,jopa3,jopa4,jpmc34,jppc11,jrdm11b,jslg3,jsre11,kepl3,klbn11,klbn3,klbn4,kncr11,knre11,knri11,krot3,lame3,lame4,lcam3,leve3,lffe3,lffe4,lher3,lher4,ligt3,linx3,lipr3,lixc3,lixc4,llis3,lmtb34,logn3,lpsb3,lren3,ltel11b,ltel3b,ltel5b,lupa3,luxm3,luxm4,magg3,maor3b,maor4b,mapt3,mapt4,matb11,maxr11b,mbrf11,mcdc34,mcrj11b,mdia3,meal3,mend3,mend5,mend6,merc3,merc4,mfii11,mgel3,mgel4,mglu3,milk33,mils3,mlft3,mlft4,mmaq3,mmaq4,mmmc34,mmxm11,mmxm3,mndl3,mnpr3,mnzc3b,moar3,mplu3,mrck34,mrfg3,mrsa3b,mrsa5b,mrsa6b,mrve3,msbr34,msft34,mspa3",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "acao consultar",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "açao consultar",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "ações ?",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "agradeço",
+      "intent": "Basica_Agradecer",
+      "entities": []
+    },
+    {
+      "text": "alguem ae?",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "até logo",
+      "intent": "Basica_Despedir",
+      "entities": []
+    },
+    {
+      "text": "até mais",
+      "intent": "Basica_Despedir",
+      "entities": []
+    },
+    {
+      "text": "ativo consultar",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "ativo, o que é?",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "batatinha quando nasce",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "beleza?",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "boa noite",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "boa tarde",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "bom dia",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "bye bye",
+      "intent": "Basica_Despedir",
+      "entities": []
+    },
+    {
+      "text": "como está o clima em são paulo?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como faturar com ações ?",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "como ganhar ?",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "como ganhar com a compra de ações ?",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "como ganhar com a comprar de ações ?",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "como ganhar com ações",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "como ganhar dinheiro ?",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "como investe pela internet?",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "como o bot funciona?",
+      "intent": "Basica_Ajuda",
+      "entities": []
+    },
+    {
+      "text": "como que ganha dinheiro com ação?",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "como vai",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "comprar ações traz alguma vantagem ?",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "consultar ação",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "consultar acao petrobrás",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 15,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "consultar ativo",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "consultar o valor de uma ação",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "cota o yahoo por favor",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 7,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "cotação da ford",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 11,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "cotação de uma ação",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "cotar o valor de uma ação",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "cotar um ativo",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "cote a usiminas pra mim por favor",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 7,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "dá pra ser um investidor online?",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "dá pra ser um investidor por software online?",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "descrição de ação",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "é possível investir pela internet?",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "em quanto está a usiminas?",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 17,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "está custando quanto yahoo?",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 21,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "estou com duvida e preciso de ajuda",
+      "intent": "Basica_Ajuda",
+      "entities": []
+    },
+    {
+      "text": "faça uma cotação da microsoft",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 20,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "goodbye",
+      "intent": "Basica_Despedir",
+      "entities": []
+    },
+    {
+      "text": "gostaria de saber o que é uma ação",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "gostaria de saber o que são ações",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "há regalias para quem compra ações ?",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "há um momento ideal para começar",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "há um momento ideal para começar investir ?",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "hey yo",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "investir pelo pc tem como",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "me explique o que é uma ação",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "muito obrigado",
+      "intent": "Basica_Agradecer",
+      "entities": []
+    },
+    {
+      "text": "na internet dá pra ser investidor?",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "o que é ação",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "o que é uma ação",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "o que o investido em ações recebe de vantagens ?",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "o que o investido tem de benefícios",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "o que são ações ?",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "obrigada",
+      "intent": "Basica_Agradecer",
+      "entities": []
+    },
+    {
+      "text": "obrigado",
+      "intent": "Basica_Agradecer",
+      "entities": []
+    },
+    {
+      "text": "oi",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "oiee",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "olá",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "olha o preço do yahoo pra mim",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 16,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "opa",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "paz do senhor",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "pode me falar o preço da ação da microsoft?",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 33,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "por que investir ?",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "posso comprar ações pelo computador?",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "posso investir pela internet?",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "posso investir usando meu celular?",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "quais as formas de ganhar",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "quais as formas de ganhar dinheiro com ações ?",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "quais as formas de se ganhar investindo em ações ?",
+      "intent": "Investir_ComoLucrar",
+      "entities": []
+    },
+    {
+      "text": "quais as regalias de quem investe em ações",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "quais as serventias do investidor ?",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "quais as vantagens de investir ?",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "quais as vantagens em comprar ações",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "quais os benefícios em comprar ações",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "quais os privilégios de quem comprar ações",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "quais os privilégios de quem investe em ações",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "quais são as vantagens em comprar ações ?",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "qual a melhor hora para se investir",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "qual a vantagem em investir",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "qual as ultimas notícias?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "qual beneficio em investir",
+      "intent": "Investir_Vantagens",
+      "entities": []
+    },
+    {
+      "text": "qual é meu retorno em lucro",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "qual é o meu lucro",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "qual é o meu lucro final ?",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "qual o conceito de ações",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "qual o lucro se eu investir em ações?",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "qual o momento ideal para começar ?",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "qual o valor da petrobrás?",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 16,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "qual significação do termo ação",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "qual valor eu ganho ?",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "quando começo ?",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "quando comprar ações ?",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "quando é melhor para começar investir ?",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "quando investir",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "quando investir para dar lucros ?",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "quanto está valendo a usiminas?",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 22,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "quanto eu ganho com a comprar de ações ?",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "quanto ganho ?",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "quanto ganho com a comprar e venda de ações",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "quanto ganho investindo em ações ?",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "quanto recebo com os investimentos",
+      "intent": "Investir_TamanhoLucro",
+      "entities": []
+    },
+    {
+      "text": "quem é você?",
+      "intent": "Basica_Ajuda",
+      "entities": []
+    },
+    {
+      "text": "quem ganhou o jogo de ontem?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quero comprar um par de tênis",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quero entender o que é um ativo",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "quero pedir uma pizza",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quero saber em quanto está cotada a petr4",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 36,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "quero saber quais as opções",
+      "intent": "Basica_Ajuda",
+      "entities": []
+    },
+    {
+      "text": "quero uma cotação da apple",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 21,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "saber sobre ativo",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "significado de ação",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "significado de ativo",
+      "intent": "Acao_Definicao",
+      "entities": []
+    },
+    {
+      "text": "tchau",
+      "intent": "Basica_Despedir",
+      "entities": []
+    },
+    {
+      "text": "tem como investir no computador?",
+      "intent": "Investir_Internet",
+      "entities": []
+    },
+    {
+      "text": "tem um melhor momento para investir?",
+      "intent": "Investir_MelhorMomento",
+      "entities": []
+    },
+    {
+      "text": "tô preciso de ajuda",
+      "intent": "Basica_Ajuda",
+      "entities": []
+    },
+    {
+      "text": "tranquilo?",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "tudo bem?",
+      "intent": "Basica_Saudacao",
+      "entities": []
+    },
+    {
+      "text": "valeu",
+      "intent": "Basica_Agradecer",
+      "entities": []
+    },
+    {
+      "text": "ver o preço da cotação da chevrolet",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 26,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "ver o valor ativo",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "ver o valor de uma ação",
+      "intent": "Acao_Consultar",
+      "entities": []
+    },
+    {
+      "text": "verifica por favor quanto está custando a petr4",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 42,
+          "endPos": 46
+        }
+      ]
+    },
+    {
+      "text": "verifica pra mim por favor quanto custa a petrobrás",
+      "intent": "Acao_Consultar",
+      "entities": [
+        {
+          "entity": "Ativo",
+          "startPos": 42,
+          "endPos": 50
+        }
+      ]
+    }
+  ]
+}
